@@ -178,7 +178,7 @@ Experience the app live on **Streamlit Cloud**:
 
 ### 1️⃣ Dashboard Overview
 
-![Dashboard Overview]([link_to_your_image_here](https://icecream.me/uploads/14d6b74221dd63a19f517491537d6571.png))
+![Dashboard Overview]([(https://imgur.com/SWOhMvm)])
 
 <!-- Replace with an image showing the main Streamlit layout and title -->
 
