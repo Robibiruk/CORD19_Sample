@@ -34,12 +34,12 @@ It demonstrates **data cleaning, feature engineering, visualization, and machine
 
 ## Features
 
-### 1️⃣ Data Loading & Inspection
+### 🔳 Data Loading & Inspection
 - Load the sample CORD-19 metadata CSV file using `pandas`.
 - Explore the dataset shape, column types, and missing values.
 - Preview the first few rows of data directly in the web app.
 
-### 2️⃣ Feature Engineering
+### 🔳 Feature Engineering
 - Handle missing data in numeric and categorical columns.
 - Convert publication dates to datetime and extract `publish_year`.
 - Create new features:
@@ -48,13 +48,13 @@ It demonstrates **data cleaning, feature engineering, visualization, and machine
   - `num_authors`
 - Reduce journal categories to top publishers for better analysis.
 
-### 3️⃣ Visualizations
+### 🔳 Visualizations
 - **Publications Over Time:** Interactive bar chart showing number of papers per year since 1990.
 - **Top Journals:** Horizontal bar chart of the 10 most prolific journals publishing COVID-19 papers.
 - **Word Cloud of Titles:** Most frequent words in paper titles to highlight research trends.
 - **Distribution by Source:** Cleaned bar chart showing top sources of papers plus an 'Other' category.
 
-### 4️⃣ Abstract Length Classification
+### 🔳 Abstract Length Classification
 - Classify abstracts as **short vs long** based on word count using a **Random Forest Classifier**.
 - Features include:
   - `publish_year`
@@ -69,7 +69,7 @@ It demonstrates **data cleaning, feature engineering, visualization, and machine
   - Predicted probabilities scatter and histogram
   - Correlation heatmap of numeric features
 
-### 5️⃣ Interactive Streamlit Application
+### 🔳 Interactive Streamlit Application
 - Built a **fully interactive dashboard** using Streamlit.
 - Displayed tables, plots, and word clouds dynamically.
 - Users can explore the dataset visually without running code locally.
@@ -176,43 +176,30 @@ Experience the app live on **Streamlit Cloud**:
 
 ## Screenshots
 
-### 1️⃣ Dashboard Overview
+### 🔳 Dashboard Overview
+![Dashboard Overview](https://icecream.me/uploads/14d6b74221dd63a19f517491537d6571.png)
 
-![Dashboard Overview]([(https://imgur.com/SWOhMvm)])
 
-<!-- Replace with an image showing the main Streamlit layout and title -->
+### 🔳 Publications Over Time
+![Publications Over Time](https://icecream.me/uploads/0f1daad05245cb447eb54656b477eea0.png)
 
-### 2️⃣ Publications Over Time
 
-![Publications Over Time]([link_to_your_image_here](https://icecream.me/uploads/0f1daad05245cb447eb54656b477eea0.png))
+### 🔳 Top Journals
+![Top Journals](https://icecream.me/uploads/3bc75152aa2a97ddba85cb8b1cb4629b.png)
 
-<!-- Replace with an image showing the bar chart of number of papers per year -->
 
-### 3️⃣ Top Journals
+### 🔳 Word Cloud
+![Word Cloud](https://icecream.me/uploads/b79791e0c630bc69cf8501d05bad8bfb.png)
 
-![Top Journals]([link_to_your_image_here](https://icecream.me/uploads/3bc75152aa2a97ddba85cb8b1cb4629b.png))
 
-<!-- Replace with an image showing the horizontal bar chart of top journals -->
+### 🔳 Abstract Classification
+![Abstract Classification](https://icecream.me/uploads/4277e1815ebd8cd688102038352a6b1a.png)
 
-### 4️⃣ Word Cloud
 
-![Word Cloud]([link_to_your_image_here](https://icecream.me/uploads/b79791e0c630bc69cf8501d05bad8bfb.png))
+### 🔳 Source Distribution
+![Source Distribution](https://icecream.me/uploads/69a46cf9bde5b231759a5f4c6c78bcf4.png)
 
-<!-- Replace with an image showing the WordCloud of paper titles -->
 
-### 5️⃣ Abstract Classification
-
-![Abstract Classification]([link_to_your_image_here](https://icecream.me/uploads/4277e1815ebd8cd688102038352a6b1a.png))
-
-<!-- Replace with an image showing confusion matrix, feature importance, scatter/histogram of predicted probabilities -->
-
-### 6️⃣ Source Distribution
-
-![Source Distribution]([link_to_your_image_here](https://icecream.me/uploads/69a46cf9bde5b231759a5f4c6c78bcf4.png))
-
-<!-- Replace with an image showing distribution of papers by source -->
-
----
 
 ## Author
 
@@ -225,4 +212,4 @@ Experience the app live on **Streamlit Cloud**:
 
 ## License
 
-⚖️This project is released under the MIT License.
+⚖️ This project is released under the MIT License.
